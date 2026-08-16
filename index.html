@@ -3,30 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soccer Website</title>
+
+    <title>PitchBase | Everything Football</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>⚽ Soccer Website</h1>
+    <!-- NAVIGATION -->
+    <header class="navbar">
+
+        <div class="logo">
+            ⚽ <span>PitchBase</span>
+        </div>
+
         <nav>
-            <a href="#">Home</a>
+            <a href="index.html" class="active">Home</a>
             <a href="#">Players</a>
             <a href="#">Clubs</a>
+            <a href="#">Competitions</a>
             <a href="#">Stats</a>
             <a href="#">News</a>
         </nav>
+
     </header>
 
-    <main>
-        <h2>Welcome!</h2>
-        <p>This is the beginning of my soccer website.</p>
 
-        <button id="helloButton">Click Me!</button>
-        <p id="message"></p>
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-small">WELCOME TO PITCHBASE</p>
+
+            <h1>
+                Everything football.<br>
+                <span>All in one place.</span>
+            </h1>
+
+            <p class="hero-description">
+                Explore players, clubs, competitions, statistics,
+                fixtures and football news.
+            </p>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search players, clubs or competitions..."
+                >
+
+                <button id="searchButton">Search</button>
+
+            </div>
+
+            <p id="searchMessage"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- TRENDING -->
+        <section class="section">
+
+            <div class="section-title">
+                <h2>🔥 Trending</h2>
+                <a href="#">View all →</a>
+            </div>
+
+            <div class="cards">
+
+                <article class="news-card">
+                    <div class="card-icon">⚽</div>
+                    <h3>Football News</h3>
+                    <p>Keep up with the latest football stories.</p>
+                    <button>Read more</button>
+                </article>
+
+                <article class="news-card">
+                    <div class="card-icon">🔄</div>
+                    <h3>Transfer Centre</h3>
+                    <p>Track the biggest transfers and rumours.</p>
+                    <button>Explore</button>
+                </article>
+
+                <article class="news-card">
+                    <div class="card-icon">🏆</div>
+                    <h3>Big Competitions</h3>
+                    <p>Explore the world's biggest football tournaments.</p>
+                    <button>Explore</button>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURED PLAYERS -->
+        <section class="section">
+
+            <div class="section-title">
+                <h2>⭐ Featured Players</h2>
+                <a href="#">View players →</a>
+            </div>
+
+            <div class="player-grid">
+
+                <div class="player-card">
+                    <div class="player-number">10</div>
+                    <h3>Player One</h3>
+                    <p>Forward</p>
+                    <span>🇦🇷 Argentina</span>
+                </div>
+
+                <div class="player-card">
+                    <div class="player-number">7</div>
+                    <h3>Player Two</h3>
+                    <p>Forward</p>
+                    <span>🇵🇹 Portugal</span>
+                </div>
+
+                <div class="player-card">
+                    <div class="player-number">8</div>
+                    <h3>Player Three</h3>
+                    <p>Midfielder</p>
+                    <span>🇪🇸 Spain</span>
+                </div>
+
+                <div class="player-card">
+                    <div class="player-number">9</div>
+                    <h3>Player Four</h3>
+                    <p>Forward</p>
+                    <span>🇳🇴 Norway</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COMPETITIONS -->
+        <section class="section">
+
+            <div class="section-title">
+                <h2>🏆 Popular Competitions</h2>
+                <a href="#">View all →</a>
+            </div>
+
+            <div class="competition-grid">
+
+                <div class="competition-card">
+                    <span>🏴</span>
+                    <h3>Premier League</h3>
+                    <p>England</p>
+                </div>
+
+                <div class="competition-card">
+                    <span>🇪🇸</span>
+                    <h3>La Liga</h3>
+                    <p>Spain</p>
+                </div>
+
+                <div class="competition-card">
+                    <span>🇩🇪</span>
+                    <h3>Bundesliga</h3>
+                    <p>Germany</p>
+                </div>
+
+                <div class="competition-card">
+                    <span>🌍</span>
+                    <h3>Champions League</h3>
+                    <p>Europe</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUICK STATS -->
+        <section class="section">
+
+            <div class="section-title">
+                <h2>📊 Football at a Glance</h2>
+            </div>
+
+            <div class="stats-grid">
+
+                <div class="stat">
+                    <strong>10,000+</strong>
+                    <span>Players</span>
+                </div>
+
+                <div class="stat">
+                    <strong>500+</strong>
+                    <span>Clubs</span>
+                </div>
+
+                <div class="stat">
+                    <strong>100+</strong>
+                    <span>Competitions</span>
+                </div>
+
+                <div class="stat">
+                    <strong>∞</strong>
+                    <span>Football moments</span>
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="logo">
+            ⚽ <span>PitchBase</span>
+        </div>
+
+        <p>Everything football. All in one place.</p>
+
+        <p class="copyright">
+            © 2026 PitchBase
+        </p>
+
+    </footer>
+
+
     <script src="script.js"></script>
+
 </body>
 </html>
