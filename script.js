@@ -15,4 +15,3 @@ tabs.forEach(tab => {
 
         alert(tab.textContent + " selected!");
     });
-});
