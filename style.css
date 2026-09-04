@@ -223,7 +223,11 @@ button:hover {
 .teams strong {
     font-size: 22px;
 }
-
+.match-time {
+    color: #777;
+    font-size: 13px;
+    margin-top: 8px;
+}
 .final-match {
     font-size: 20px;
 }
