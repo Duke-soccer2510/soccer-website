@@ -216,6 +216,8 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     font-size: 22px;
+    color: #111;
+    gap: 20px;
 }
 
 .teams strong {
