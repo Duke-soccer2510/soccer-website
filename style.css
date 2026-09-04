@@ -224,7 +224,7 @@ button:hover {
     font-size: 22px;
 }
 .match-time {
-    color: #777;
+    color: #777 !important;
     font-size: 13px;
     margin-top: 8px;
 }
