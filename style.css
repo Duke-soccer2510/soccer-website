@@ -228,6 +228,10 @@ button:hover {
     font-size: 13px;
     margin-top: 8px;
 }
+.teams span {
+    font-size: 22px;
+    color: #111;
+}
 .final-match {
     font-size: 20px;
 }
