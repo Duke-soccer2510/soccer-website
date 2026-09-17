@@ -8,7 +8,9 @@ if (button && message) {
 }
 
 const tabs = document.querySelectorAll(".wc-tab");
+
 const groupSection = document.getElementById("groups");
+const knockoutSection = document.getElementById("knockout");
 
 tabs.forEach(tab => {
     tab.addEventListener("click", () => {
@@ -16,8 +18,16 @@ tabs.forEach(tab => {
         tabs.forEach(t => t.classList.remove("active"));
         tab.classList.add("active");
 
-        if (tab.textContent.trim() === "Groups" && groupSection) {
+        const tabName = tab.textContent.trim();
+
+        if (tabName === "Groups" && groupSection) {
             groupSection.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+
+        if (tabName === "Knockout" && knockoutSection) {
+            knockoutSection.scrollIntoView({
                 behavior: "smooth"
             });
         }
