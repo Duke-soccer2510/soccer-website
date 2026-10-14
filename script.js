@@ -32,8 +32,8 @@ tabs.forEach(tab => {
             window.scrollTo({ top: 0, behavior: "smooth" });
         }
 
-        if (tabName === "All Matches") {
-            alert("All Matches is the next feature we'll fix!");
-        }
+        if (tabName === "All Matches" && groupSection) {
+    groupSection.scrollIntoView({ behavior: "smooth" });
+} 
     });
 });
