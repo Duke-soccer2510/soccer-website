@@ -1,3 +1,4 @@
+
 const button = document.getElementById("helloButton");
 const message = document.getElementById("message");
 
@@ -14,23 +15,25 @@ const knockoutSection = document.getElementById("knockout");
 
 tabs.forEach(tab => {
     tab.addEventListener("click", () => {
-
         tabs.forEach(t => t.classList.remove("active"));
         tab.classList.add("active");
 
         const tabName = tab.textContent.trim();
 
         if (tabName === "Groups" && groupSection) {
-            groupSection.scrollIntoView({
-                behavior: "smooth"
-            });
+            groupSection.scrollIntoView({ behavior: "smooth" });
         }
 
         if (tabName === "Knockout" && knockoutSection) {
-            knockoutSection.scrollIntoView({
-                behavior: "smooth"
-            });
+            knockoutSection.scrollIntoView({ behavior: "smooth" });
         }
 
+        if (tabName === "Overview") {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        if (tabName === "All Matches") {
+            alert("All Matches is the next feature we'll fix!");
+        }
     });
 });
