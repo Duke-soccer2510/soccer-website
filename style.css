@@ -188,6 +188,20 @@ button:hover {
 }
 
 
+/* PLAYERS PAGE FIX */
+.match-card h3,
+.match-card p {
+    color: white;
+}
+
+.match-card h3 {
+    margin-bottom: 10px;
+}
+
+.match-card p {
+    margin-bottom: 0;
+}
+
 /* MATCH CARDS */
 
 .match-list {
