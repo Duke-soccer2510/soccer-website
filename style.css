@@ -362,3 +362,38 @@ footer {
     }
 
 }
+
+/* CLICKABLE PLAYER NAME LIST */
+
+.player-name-list {
+    display: grid;
+    gap: 12px;
+    max-width: 750px;
+    margin: 25px auto;
+}
+
+.player-name-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #161b22;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.player-name-link:hover {
+    background: #1c3025;
+    border-color: #2ecc71;
+    transform: translateX(4px);
+}
+
+.player-arrow {
+    color: #2ecc71;
+    font-size: 28px;
+}
