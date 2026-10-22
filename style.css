@@ -397,3 +397,129 @@ footer {
     color: #2ecc71;
     font-size: 28px;
 }
+
+/* PLAYER PROFILE PAGES */
+
+.player-profile {
+    max-width: 850px;
+    margin: 30px auto;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.player-profile-heading {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding: 30px;
+    background: linear-gradient(135deg, #123d25, #161b22);
+    border-bottom: 1px solid #30363d;
+}
+
+.player-profile-icon {
+    font-size: 65px;
+    background: #0d1117;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-country {
+    color: #2ecc71;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.player-profile-heading h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.player-profile-details {
+    padding: 30px;
+}
+
+.player-profile-details h3 {
+    color: #2ecc71;
+    margin: 25px 0 15px;
+}
+
+.player-profile-details h3:first-child {
+    margin-top: 0;
+}
+
+.player-profile-details p {
+    line-height: 1.7;
+}
+
+.player-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.player-info-box {
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.player-info-box span {
+    display: block;
+    color: #9da7b3;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.player-info-box strong {
+    color: white;
+}
+
+.stats-note {
+    color: #9da7b3;
+    font-size: 14px;
+}
+
+.player-honours {
+    padding-left: 22px;
+    line-height: 2;
+}
+
+main > p a {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+main > p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .player-profile-heading {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .player-profile-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 45px;
+    }
+
+    .player-profile-heading h2 {
+        font-size: 25px;
+    }
+
+    .player-profile-details {
+        padding: 20px;
+    }
+}
