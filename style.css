@@ -527,3 +527,24 @@ main > p a:hover {
 .world-cup-page .match-card .extra-time {
     color: #b8c2cc !important;
 }
+
+/* FIX WORLD CUP MATCH CARDS */
+
+.match-card {
+    background-color: #161b22 !important;
+    color: #ffffff !important;
+}
+
+.match-card .teams,
+.match-card .teams span,
+.match-card .teams strong {
+    color: #ffffff !important;
+}
+
+.match-card .round {
+    color: #b8c2cc !important;
+}
+
+.match-card .match-time {
+    color: #b8c2cc !important;
+}
