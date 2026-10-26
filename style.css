@@ -508,3 +508,22 @@ main > p a:hover {
         padding: 20px;
     }
 }
+
+
+/* WORLD CUP CARD VISIBILITY FIX */
+
+.world-cup-page .match-card,
+.world-cup-page .match-card * {
+    color: white !important;
+}
+
+.world-cup-page .match-card {
+    background: #161b22 !important;
+    border: 1px solid #30363d;
+}
+
+.world-cup-page .match-card .round,
+.world-cup-page .match-card .match-time,
+.world-cup-page .match-card .extra-time {
+    color: #b8c2cc !important;
+}
