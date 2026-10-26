@@ -189,25 +189,6 @@ button:hover {
 
 
 
-/* PLAYERS PAGE FIX */
-body:has(.match-card) .match-card {
-    background-color: #161b22 !important;
-    color: white !important;
-}
-
-body:has(.match-card) .match-card h3,
-body:has(.match-card) .match-card p {
-    color: white !important;
-}
-
-body:has(.match-card) .match-card p {
-    margin-bottom: 0;
-}
-
-body:has(.match-card) .match-card h3 {
-    margin-bottom: 10px;
-}
-
 
 /* MATCH CARDS */
 
