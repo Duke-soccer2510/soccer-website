@@ -251,10 +251,12 @@ body:has(.match-card) .match-card h3 {
     font-size: 13px;
     margin-top: 8px;
 }
+
 .teams span {
     font-size: 22px;
-    color: #111;
+    color: white;
 }
+
 .final-match {
     font-size: 20px;
 }
