@@ -855,26 +855,23 @@ main > p a:hover {
 }
 
 /* STADIUM NAME + WINNING TEAM */
-
 .score-area {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 4px;
-}
-
-.stadium {
-    font-size: 11px;
-    color: #b8c2cc;
     text-align: center;
+    flex-shrink: 0;
 }
 
-.teams .winner {
-    background: linear-gradient(
-        90deg,
-        rgba(24, 165, 88, 0.30),
-        rgba(24, 165, 88, 0.04)
-    );
-    border-radius: 8px;
-    padding: 8px 10px;
+.score-area .stadium {
+    display: block;
+    font-size: 11px;
+    line-height: 1.3;
+    color: #b8c2cc;
+}
+
+.score-area strong {
+    display: block;
 }
